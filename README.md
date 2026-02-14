@@ -107,9 +107,7 @@ Cobertura inclui:
 - Fluxo completo de autenticação
 
 Executar os testes:
-
-```bash
-php artisan test
+- php artisan test
 
 Banco de testes configurado com SQLite in-memory.
 
