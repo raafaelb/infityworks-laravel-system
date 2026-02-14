@@ -108,6 +108,7 @@ Cobertura inclui:
 
 Executar os testes:
 
+```bash
 php artisan test
 
 Banco de testes configurado com SQLite in-memory.
@@ -118,6 +119,7 @@ Total atual: 30 testes passando.
 
 ## ⚙️ Instalação
 
+```bash
 git clone https://github.com/raafaelb/infityworks-laravel-system.git
 cd infityworks-laravel-system
 composer install
@@ -125,6 +127,7 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan serve
+
 
 
 ---
