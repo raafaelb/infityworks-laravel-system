@@ -118,13 +118,14 @@ Total atual: 30 testes passando.
 
 ## ⚙️ Instalação
 
-git clone <repo>
-cd infityworks
+git clone https://github.com/raafaelb/infityworks-laravel-system.git
+cd infityworks-laravel-system
 composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan serve
+
 
 ---
 
