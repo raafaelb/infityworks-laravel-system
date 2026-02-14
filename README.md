@@ -124,6 +124,11 @@ composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
+
+# Instale Node.js >=18
+npm install
+npm run build  # Gera CSS/JS para produção
+
 php artisan serve
 
 
